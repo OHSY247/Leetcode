@@ -8,11 +8,12 @@
 
 
 ## 使用手册
-代码全部放在[questions](questions)文件夹中
 
-`"leetcode.workspaceFolder": "f:\\workspace\\Leetcode\\questions"`
+- `*.js/*.ts/*.ts*.py/*.go`均使用 [vscode的leetcode](https://github.com/LeetCode-OpenSource/vscode-leetcode/blob/master/docs/README_zh-CN.md) 插件编写
+    - 代码全部放在[vscode-leetcode](vscode-leetcode)文件夹中
+    - `"leetcode.workspaceFolder": "xxxxxxxxxx"`
+- `*/java`均使用 [intelliJ IDEA的leetcode插件](https://github.com/shuzijun/leetcode-editor) 编写
 
-本仓支持vscode-leetcode插件，插件中选择代码的存放路径为上述的[questions](questions)即可
 ## 基础知识点
 
 ## [CONTENT]
@@ -22,19 +23,19 @@
 
 |go-解题|python-解题|java-解题|tag|
 |:---:|:---:|:---:|:---:|
-|[144.二叉树的前序遍历.go](questions\144.二叉树的前序遍历.go)| |  ||
-|[94.二叉树的中序遍历.go](questions\94.二叉树的中序遍历.go)|  |  ||
-|[145.二叉树的后序遍历.go](questions\145.二叉树的后序遍历.go)|  |  ||
-|[102.二叉树的层序遍历.go](questions\102.二叉树的层序遍历.go)|  |  ||
-|[107.二叉树的层序遍历-ii.go](questions\107.二叉树的层序遍历-ii.go)|  |  ||
-|[104.二叉树的最大深度.go](questions\104.二叉树的最大深度.go)|  |  ||
-|[101.对称二叉树.go](questions\101.对称二叉树.go)|  |  ||
-|[112.路径总和.go](questions\112.路径总和.go)|  |  ||
-|[116.填充每个节点的下一个右侧节点指针.go](questions\116.填充每个节点的下一个右侧节点指针.go)|  |  ||
-|[117.填充每个节点的下一个右侧节点指针-ii.go](questions\117.填充每个节点的下一个右侧节点指针-ii.go)|  |  ||
-|[889.根据前序和后序遍历构造二叉树.go](questions\889.根据前序和后序遍历构造二叉树.go)|  |  ||
-|[105.从前序与中序遍历序列构造二叉树.go](questions\105.从前序与中序遍历序列构造二叉树.go)|||递归|
-|[106.从中序与后序遍历序列构造二叉树.go](questions\106.从中序与后序遍历序列构造二叉树.go)||||
+|[144.二叉树的前序遍历.go](vscode-leetcode\144.二叉树的前序遍历.go)| |  ||
+|[94.二叉树的中序遍历.go](vscode-leetcode\94.二叉树的中序遍历.go)|  |  ||
+|[145.二叉树的后序遍历.go](vscode-leetcode\145.二叉树的后序遍历.go)|  |  ||
+|[102.二叉树的层序遍历.go](vscode-leetcode\102.二叉树的层序遍历.go)|  |  ||
+|[107.二叉树的层序遍历-ii.go](vscode-leetcode\107.二叉树的层序遍历-ii.go)|  |  ||
+|[104.二叉树的最大深度.go](vscode-leetcode\104.二叉树的最大深度.go)|  |  ||
+|[101.对称二叉树.go](vscode-leetcode\101.对称二叉树.go)|  |  ||
+|[112.路径总和.go](vscode-leetcode\112.路径总和.go)|  |  ||
+|[116.填充每个节点的下一个右侧节点指针.go](vscode-leetcode\116.填充每个节点的下一个右侧节点指针.go)|  |  ||
+|[117.填充每个节点的下一个右侧节点指针-ii.go](vscode-leetcode\117.填充每个节点的下一个右侧节点指针-ii.go)|  |  ||
+|[889.根据前序和后序遍历构造二叉树.go](vscode-leetcode\889.根据前序和后序遍历构造二叉树.go)|  |  ||
+|[105.从前序与中序遍历序列构造二叉树.go](vscode-leetcode\105.从前序与中序遍历序列构造二叉树.go)|||递归|
+|[106.从中序与后序遍历序列构造二叉树.go](vscode-leetcode\106.从中序与后序遍历序列构造二叉树.go)||||
 
 #### Others
 > 树相关的其他题
@@ -45,8 +46,8 @@
 
 |go-解题|python-解题|java-解题|tag|
 |:---:|:---:|:---:|:---:|
-|[707.设计链表.go](questions\707.设计链表.go)|
-|[141.环形链表.go](questions\141.环形链表.go)|
+|[707.设计链表.go](vscode-leetcode\707.设计链表.go)|
+|[141.环形链表.go](vscode-leetcode\141.环形链表.go)|
 ### 数组和字符串
 > https://leetcode-cn.com/leetbook/detail/array-and-string/
 
@@ -56,49 +57,49 @@
 #### Others
 |go-解题|python-解题|java-解题|tag|
 |:---:|:---:|:---:|:---:|
-|[questions\74.搜索二维矩阵.go](questions\74.搜索二维矩阵.go)|[questions\74.搜索二维矩阵.py](questions\74.搜索二维矩阵.py)||二分查找|
+|[vscode-leetcode\74.搜索二维矩阵.go](vscode-leetcode\74.搜索二维矩阵.go)|[vscode-leetcode\74.搜索二维矩阵.py](vscode-leetcode\74.搜索二维矩阵.py)||二分查找|
 ### 动态规划
 |go-解题|python-解题|java-解题|tag|
 |:---:|:---:|:---:|:---:|
-||[121.买卖股票的最佳时机](/questions/121.买卖股票的最佳时机.py)|
-||[122.买卖股票的最佳时机-ii](/questions/122.买卖股票的最佳时机-ii.py)|
-||[123.买卖股票的最佳时机-iii](/questions/123.买卖股票的最佳时机-iii.py)|
-||[198.打家劫舍](/questions/198.打家劫舍.py)|
-||[213.打家劫舍-ii](/questions/213.打家劫舍-ii.py)|
-||[337.打家劫舍-iii](/questions/337.打家劫舍-iii.py)|
-|[不同路径](questions\62.不同路径.go)||
-|[不同路径-ii](questions\63.不同路径-ii.go)||
+||[121.买卖股票的最佳时机](/vscode-leetcode/121.买卖股票的最佳时机.py)|
+||[122.买卖股票的最佳时机-ii](/vscode-leetcode/122.买卖股票的最佳时机-ii.py)|
+||[123.买卖股票的最佳时机-iii](/vscode-leetcode/123.买卖股票的最佳时机-iii.py)|
+||[198.打家劫舍](/vscode-leetcode/198.打家劫舍.py)|
+||[213.打家劫舍-ii](/vscode-leetcode/213.打家劫舍-ii.py)|
+||[337.打家劫舍-iii](/vscode-leetcode/337.打家劫舍-iii.py)|
+|[不同路径](vscode-leetcode\62.不同路径.go)||
+|[不同路径-ii](vscode-leetcode\63.不同路径-ii.go)||
 
 #### Others
 |go-解题|python-解题|java-解题|tag|
 |:---:|:---:|:---:|:---:|
-|[questions\741.摘樱桃.go](questions\741.摘樱桃.go)|
-|[questions\64.最小路径和.go](questions\64.最小路径和.go)|
+|[vscode-leetcode\741.摘樱桃.go](vscode-leetcode\741.摘樱桃.go)|
+|[vscode-leetcode\64.最小路径和.go](vscode-leetcode\64.最小路径和.go)|
 ### 双指针
-[15.三数之和](/questions/15.三数之和.py)
-[16.最接近的三数之和.py](/questions/16.最接近的三数之和.py.py)
+[15.三数之和](/vscode-leetcode/15.三数之和.py)
+[16.最接近的三数之和.py](/vscode-leetcode/16.最接近的三数之和.py.py)
 
 ## 递归
 |go-解题|python-解题|java-解题|tag|
 |:---:|:---:|:---:|:---:|
-||[反转字符串](./questions/344.反转字符串.py)|
-||[反转字符串-ii](./questions/541.反转字符串-ii.py)|
-||[反转字符串中的单词-iii](./questions/557.反转字符串中的单词-iii.py)|
-||[两两交换链表中的节点](./questions/24.两两交换链表中的节点.py)|
-||[杨辉三角](./questions/118.杨辉三角.py)|
-||[杨辉三角 II](./questions/119.杨辉三角-ii.py)|
-||[反转链表](./questions/206.反转链表.py)|
-||[斐波那契数](./questions/509.斐波那契数.py)|
-||[爬楼梯](./questions/70.爬楼梯.py)|
-||[二叉树的最大深度](./questions/104.二叉树的最大深度.py)|
-||[二叉树的最大宽度](./questions/662.二叉树最大宽度.py)|
-||[Pow(x, n)](./questions/50.pow-x-n.py)|
-||[合并两个有序链表](./questions/21.合并两个有序链表.py)|
-||[第K个语法符号](./questions/779.第k个语法符号.py)|
-||[不同的二叉搜索树](./questions/96.不同的二叉搜索树.py)|
-||[不同的二叉搜索树 II](./questions/95.不同的二叉搜索树-ii.py)|
-|[不同路径](questions\62.不同路径.go)||
-|[不同路径-ii](questions\63.不同路径-ii.go)||
+||[反转字符串](./vscode-leetcode/344.反转字符串.py)|
+||[反转字符串-ii](./vscode-leetcode/541.反转字符串-ii.py)|
+||[反转字符串中的单词-iii](./vscode-leetcode/557.反转字符串中的单词-iii.py)|
+||[两两交换链表中的节点](./vscode-leetcode/24.两两交换链表中的节点.py)|
+||[杨辉三角](./vscode-leetcode/118.杨辉三角.py)|
+||[杨辉三角 II](./vscode-leetcode/119.杨辉三角-ii.py)|
+||[反转链表](./vscode-leetcode/206.反转链表.py)|
+||[斐波那契数](./vscode-leetcode/509.斐波那契数.py)|
+||[爬楼梯](./vscode-leetcode/70.爬楼梯.py)|
+||[二叉树的最大深度](./vscode-leetcode/104.二叉树的最大深度.py)|
+||[二叉树的最大宽度](./vscode-leetcode/662.二叉树最大宽度.py)|
+||[Pow(x, n)](./vscode-leetcode/50.pow-x-n.py)|
+||[合并两个有序链表](./vscode-leetcode/21.合并两个有序链表.py)|
+||[第K个语法符号](./vscode-leetcode/779.第k个语法符号.py)|
+||[不同的二叉搜索树](./vscode-leetcode/96.不同的二叉搜索树.py)|
+||[不同的二叉搜索树 II](./vscode-leetcode/95.不同的二叉搜索树-ii.py)|
+|[不同路径](vscode-leetcode\62.不同路径.go)||
+|[不同路径-ii](vscode-leetcode\63.不同路径-ii.go)||
 
 ### 位运算
 
@@ -113,10 +114,10 @@
 
 |go-解题|python-解题|java-解题|tag|
 |:---:|:---:|:---:|:---:|
-||[136.只出现一次的数字](/questions/136.只出现一次的数字.py)|
-||[137.只出现一次的数字-ii](/questions/137.只出现一次的数字-ii.py)|
-||[260.只出现一次的数字-iii](/questions/260.只出现一次的数字-iii.py)|
-||[191.位-1-的个数](/questions/191.位-1-的个数.py)|
+||[136.只出现一次的数字](/vscode-leetcode/136.只出现一次的数字.py)|
+||[137.只出现一次的数字-ii](/vscode-leetcode/137.只出现一次的数字-ii.py)|
+||[260.只出现一次的数字-iii](/vscode-leetcode/260.只出现一次的数字-iii.py)|
+||[191.位-1-的个数](/vscode-leetcode/191.位-1-的个数.py)|
 
 ### 链表
 
