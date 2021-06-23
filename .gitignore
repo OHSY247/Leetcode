@@ -12,3 +12,4 @@ uploads/
 # 压缩文件
 **/.zip
 *.exe
+out/
